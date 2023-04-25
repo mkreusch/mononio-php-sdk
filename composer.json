@@ -1,0 +1,32 @@
+{
+  "name": "mkreusch/montonio-php-sdk",
+  "type": "library",
+  "description": "Montonio SDK (PHP)",
+  "version": "1.0.0",
+  "keywords": [
+    "montonio",
+    "payment",
+    "payments"
+  ],
+  "homepage": "https://github.com/mkreusch/montonio-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcus Kreusch",
+      "email": "info@onlineshop.consulting"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Montonio\\": "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "php": ">=7.1",
+    "firebase/php-jwt":"^6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
